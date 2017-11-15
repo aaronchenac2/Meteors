@@ -21,6 +21,25 @@ public class Dummytar
     {
         initCraft( file, x, y );
     }
+    
+    public int menuMove(int width, int height, int angle, int speed)
+    {
+		x += speed * Math.cos(Math.toRadians(angle));
+		y += speed * Math.sin(Math.toRadians(angle));
+		if (y > height * 4 / 7 + height / 15 && x < width / 2) {
+			angle = 0;
+		}
+		else if (y >= height * 4 / 7 + height / 15 && x > width * 3 / 4) {
+			angle = 270;
+		}
+		else if (y < 0)
+		{
+			x = 10;
+			y = 10;
+			angle = 90;
+		}
+		return angle;
+    }
 
 
     private void initCraft( URL file, int x, int y )

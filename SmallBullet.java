@@ -2,7 +2,7 @@ package pckg;
 
 public class SmallBullet extends Bullets
 {   
-    public static int SBCD = 5000; //5000
+    public static int SBCD = 2500; //5000
     public static int SBHP = 2;
     public int hp = SBHP;
 

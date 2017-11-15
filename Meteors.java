@@ -15,9 +15,9 @@ public class Meteors
 
     private double y;
     
-    private static final int SPAWNSLEEPS = 500;
+    private static final int SPAWNSLEEPS = 250;
     
-    private int spawnSleep = 750;
+    private int spawnSleep = SPAWNSLEEPS;
     
     private Image image;
     

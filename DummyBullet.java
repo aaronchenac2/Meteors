@@ -11,6 +11,8 @@ public class DummyBullet
     private double y;
     
     private boolean on;
+    
+    private int CD;
    
     private Image image;
     
@@ -19,6 +21,16 @@ public class DummyBullet
         ClassLoader loader = this.getClass().getClassLoader();
         ImageIcon ii = new ImageIcon( loader.getResource( "bigBullet.png" ) );
         image = ii.getImage();
+    }
+    
+    public void setCD (int cd)
+    {
+        CD = cd;
+    }
+    
+    public int getCD()
+    {
+        return CD;
     }
     
     public void setOn (boolean b)

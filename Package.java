@@ -14,8 +14,20 @@ public abstract class Package
     
     private int sleep = 0;
     
+    private boolean enabled = true;
+    
     public Package()
     {
+    }
+    
+    public void setEnabled(boolean b)
+    {
+        enabled = b;
+    }
+    
+    public boolean getEnabled()
+    {
+        return enabled;
     }
     
     public void setSleep( int s)
