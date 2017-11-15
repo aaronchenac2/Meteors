@@ -1,0 +1,25 @@
+tookL = took the L // no params
+pause = pause // no params
+xpaus = unpause // no params
+rstrt = restart // no params
+quitt = quit // no params
+
+avatx = avatar x // 1 param (new x)
+avaty = avatar y // 1 param (new y)
+avthp = set avatar hp // 1 param (avatar hp)
+addmt = add meteor // 1 param (plusMets)
+hporb = add hp orb // 1 param (numHP orbs) ***
+updbh = update boss hp // 1 param (boss hp)
+updms = update meteors survived // 1 param (metSurvived)
+
+rvive = revive // 2 params (alive hp, dead hp) ***
+
+updbb = update boss bullet // 4 params (ID, x, y, inAir)
+updpk = update package // 4 params (name, x, y, sleep)
+
+updbt = update bullet // 5 params (ID, x, y, on, CD)
+updmt = update meteor // 5 params (ID , x, y, enabled, SpawnSleep)
+
+
+
+
